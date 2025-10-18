@@ -1,0 +1,13 @@
+{
+  "name": "pb4-sum-to-n",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p .",
+    "demo": "ts-node ./sum_to_n.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
