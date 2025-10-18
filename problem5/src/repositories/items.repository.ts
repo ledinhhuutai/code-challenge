@@ -90,5 +90,5 @@ export async function updateItem(
 
 export async function deleteItem(id: string) {
   const r = await pool.query("DELETE FROM items WHERE id=$1", [id]);
-  return r.rowCount > 0;
+  return (r.rowCount ?? 0) > 0;
 }
